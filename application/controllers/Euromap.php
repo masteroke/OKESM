@@ -23,6 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed' );
             $this -> euromap_model -> truncate_param_act($data);
         }
         
+        // Test
         public function select_param_data_mapping_act(){
             $records = $this->euromap_model->select_param_data_mapping_act();  
             echo json_encode($records);  
